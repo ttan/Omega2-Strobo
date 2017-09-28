@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Omega Strobo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script><script src="/js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+  <style type="text/css" media="screen">
+      #loading {
+        display: none;
+        margin-left: 20px;
+      }
+
+      #startS {
+        display: none;
+        margin-left: 20px;
+      }
+  </style>
+</head>
+<body>
+	<div class="container">
+  <!-- Content here -->
+  <form action="#" method="get" accept-charset="utf-8">
+  	<p>
+	  	<h3>Artist:</h3>
+	  	<input type="text" name="artist" id="artist">
+  	</p>
+  	<p>
+	  	<h3>Song:</h3>
+	  	<input type="text" name="song" id="song">
+  	</p>
+  	<p>
+  		<button type="submit" class="btn btn-primary" id="getBPM">Get BPM</button> <span id="loading"></span>
+  	</p>
+  	<p>
+	  	<h3>BPM:</h3>
+	  	<input type="text" name="bpm" id="bpm">	
+	 </p>
+	 <p>
+  		<button type="submit" class="btn btn-success" id="start">Start strobo</button> <span id="startS"></span>
+  	</p>
+  	<p>
+  		<button type="submit" class="btn btn-danger" id="stop">Stop strobo</button>
+  	</p>
+  </form>
+  
+</div>
+</body>
+</html>
